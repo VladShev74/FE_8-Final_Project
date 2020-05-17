@@ -92,7 +92,7 @@
     position: relative;
     width: 220px;
     margin: 0 auto;
-    z-index: 3;
+    z-index: 2;
 }
 
 .comments__user_card--quotes {
@@ -101,7 +101,7 @@
     position: absolute;
     top: -20px;
     left: -35px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .comments__user_card--text {
@@ -109,6 +109,8 @@
     font-size: 16px;
     font-weight: 400;
     color: rgb(40, 37, 40);
+    position: relative;
+    z-index: 3;
 }
 
 .comments__btn_wrapper {
