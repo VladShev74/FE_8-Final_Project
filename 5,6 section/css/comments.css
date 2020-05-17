@@ -90,6 +90,9 @@
 .comments__user_card--text_wrapper {
     margin-bottom: 24px;
     position: relative;
+    width: 220px;
+    margin: 0 auto;
+    z-index: 3;
 }
 
 .comments__user_card--quotes {
@@ -97,8 +100,8 @@
     height: 40px;
     position: absolute;
     top: -20px;
-    left: 0;
-    z-index: 1;
+    left: -35px;
+    z-index: -1;
 }
 
 .comments__user_card--text {
@@ -106,9 +109,6 @@
     font-size: 16px;
     font-weight: 400;
     color: rgb(40, 37, 40);
-    width: 220px;
-    margin: 0 auto;
-    z-index: 4;
 }
 
 .comments__btn_wrapper {
@@ -177,13 +177,15 @@
         margin-bottom: 0;
     }
 
+    .comments__user_card--text_wrapper {
+        width: 590px;
+    }
+
     .comments__user_card--quotes {
-        top: -20px;
-        left: 0;
+        left: -45px;
     }
 
     .comments__user_card--text {
-        width: 590px;
         font-size: 18px;
     }
 }
@@ -197,7 +199,11 @@
         height: 415px;
     }
 
-    .comments__user_card--text {
+    .comments__user_card--text_wrapper {
         width: 954px;
+    }
+
+    .comments__user_card--quotes {
+        left: -35px;
     }
 }
