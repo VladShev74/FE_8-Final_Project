@@ -1,0 +1,384 @@
+.header__introduction {
+  background-image: url(../image/header_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 81px;
+  position: relative;
+}
+
+.header__header {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  padding: 0 0 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 20px;
+  min-width: 321px;
+  height: 81px;
+  background-color: #fff;
+}
+
+.header__logo_link {
+  cursor: pointer;
+  color: #330cf4;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.header__burger_menu {
+  position: relative;
+  padding-right: 20px;
+}
+
+.header__burger_btn:hover + .header__menu_list {
+  display: block;
+}
+
+.header__burger_btn {
+  font-size: 30px;
+  color: #000;
+}
+
+.header__menu_item_link {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #7e7c7e;
+}
+
+.header__menu_item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header__menu_item_link:hover {
+  color: #282528;
+}
+
+.header__burger_btn:hover {
+  color: #333333;
+}
+
+.header__menu_list {
+  position: absolute;
+  top: 99%;
+  right: 0;
+  display: none;
+  min-width: 321px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  border-top: 1px solid;
+  color: #787878;
+}
+
+.header__welcome {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header__welcome_subtite {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: fff;
+  margin-bottom: 23px;
+  color: #fff;
+}
+
+.header__welcome_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  color: #fff;
+}
+
+.header__welcome_title::after {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 39px auto 0;
+}
+
+.header__welcome_btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  margin-bottom: 158px;
+}
+
+.header__introduction_title {
+  margin-top: 92px;
+  font-size: 24px;
+  margin-left: 14px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.header__subtitle {
+  margin-top: 20px;
+  font-size: 16px;
+  margin-left: 14px;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__card_subtitle {
+  font-size: 20px;
+  color: #fff;
+}
+
+.header__span_navigation {
+  font-size: 32px;
+  color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header__last_button {
+  background-color: #330cf4;
+  padding: 15px 25px;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  width: 219px;
+  margin-top: 30px;
+}
+
+.header__last_button_title {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.header__butoon_icon {
+  padding-right: 19px;
+}
+
+.header__card_phone {
+  display: none;
+}
+
+.header__list_1 {
+  list-style: ">" outside;
+  padding-left: 10px;
+  border: 0px;
+  font-size: 22px;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 25px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.header__list_2 {
+  display: none;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.header__list_1:hover + .header__list_2 {
+  display: block;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .header__header {
+    background-color: #fff;
+    margin-bottom: 144px;
+    min-width: 768px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .header__logo_link {
+    font-size: 29px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+  }
+
+  .header__introduction_title {
+    font-size: 42px;
+    width: 490px;
+  }
+
+  .header__subtitle {
+    font-size: 22px;
+    width: 540px;
+  }
+
+  .header__last_button {
+    margin: 50px 0 0 30px;
+  }
+
+  .header__menu_item_link {
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .header__menu_item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .header__welcome_subtite {
+    font-size: 60px;
+    margin-bottom: 66px;
+    color: #fff;
+  }
+
+  .header__welcome_title {
+    font-size: 120px;
+    margin-bottom: 50px;
+  }
+
+  .header__welcome_title::after {
+    margin: 71px auto;
+  }
+
+  .header__welcome_btn {
+    margin-bottom: 210px;
+    font-size: 14px;
+  }
+
+  .header__burger_menu {
+    position: static;
+    width: 500px;
+  }
+
+  .header__burger_btn {
+    display: none;
+  }
+
+  .header__menu_list {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    width: 500px;
+    background-color: #fff;
+    text-align: center;
+    padding-right: 30px;
+    border: none;
+  }
+
+  .header__card_phone {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+    width: 350px;
+    height: auto;
+  }
+
+  .header__list_1 {
+    font-size: 22px;
+  }
+
+  .header__list_2 {
+    font-size: 22px;
+    width: 350px;
+  }
+
+  .list_conteiner {
+    min-height: 283px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .header__header {
+      min-width: 1200px;
+      margin-bottom: 180px;
+    }
+
+    .header__burger_menu {
+      position: static;
+      width: 585px;
+    }
+
+    .header__burger_btn {
+      display: none;
+    }
+
+    .header__introduction_title {
+      font-size: 57px;
+      width: auto;
+      margin-left: 30px;
+    }
+
+    .header__subtitle {
+      font-size: 22px;
+      width: auto;
+      margin-left: 30px;
+    }
+
+    .header__menu_list {
+      position: static;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 585px;
+    }
+
+    .header__navigation:hover > .header__menu_list {
+      display: flex;
+    }
+
+    .header__menu_item_link {
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 700;
+      border-bottom: 2rem;
+    }
+
+    .header__menu_item_link:hover {
+      text-decoration: none;
+    }
+
+    .list_conteiner {
+      margin-bottom: 90px;
+      margin-left: 30px;
+      width: 252px;
+    }
+
+    .header__list_1 {
+      font-size: 26px;
+      padding-left: 20px;
+    }
+
+    .header__list_2 {
+      font-size: 26px;
+    }
+
+    .header__card_phone {
+      width: 400px;
+      bottom: -150px;
+      right: 60px;
+    }
+  }
+}

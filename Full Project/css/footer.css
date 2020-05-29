@@ -1,0 +1,32 @@
+.footer {
+    background-image: url(../image/contact_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer__copyright {
+    border-top: 2px solid #787878; 
+    padding: 25px 20px;
+} 
+
+.footer__copyright_wrapper {
+    width: 180px;
+}
+
+.footer__copyright_text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__copyright {
+        padding: 20px 20px;
+    } 
+
+    .footer__copyright_wrapper {
+        width: auto;
+    }
+}

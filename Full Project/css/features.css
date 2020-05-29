@@ -1,0 +1,158 @@
+.features {
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.features__container {
+  min-width: 275px;
+  height: 250px;
+  margin-bottom: 40px;
+}
+
+.features__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #330cf4;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin: 55px auto 33px;
+}
+
+.features__title::after {
+  content: "";
+  width: 60px;
+  height: 1px;
+  display: inline-block;
+  background-color: #babdc1;
+  margin-left: 10px;
+}
+
+.features__title::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  display: inline-block;
+  background-color: #babdc1;
+  margin-right: 10px;
+}
+
+.features__text {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+}
+
+.features__card_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section2_phone {
+  display: none;
+}
+
+.services_card {
+  width: 290px;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.card_img {
+  width: 38px;
+  height: 32px;
+  margin-right: 25px;
+}
+
+.card_text_wraper {
+  width: 269px;
+  justify-content: space-between;
+}
+
+.card_title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align-last: left;
+  color: #282528;
+  margin-bottom: 20px;
+}
+
+.card_text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #282528;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.phone_key_fetures {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .features {
+    min-width: 768px;
+    height: 900px;
+    padding: 0 2rem;
+  }
+
+  .features__container {
+    margin-top: 120px;
+    margin: 120px 60px 0 60px;
+  }
+
+  .features__title {
+      font-size: 22px;
+  }
+
+  .services_card {
+    margin: 0 30px 90px 30px;
+  }
+
+  .phone_key_fetures {
+    display: none;
+  }
+
+  .card_title {
+    font-weight: 700;
+  }
+
+  .features__title::after {
+    margin-left: 15px;
+  }
+
+  .features__title::before {
+     margin-right: 15px; 
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features {
+    min-width: 1200px;
+  }
+
+  .features__container {
+    margin-left: 49px;
+    margin-right: 34px;
+  }
+
+  .features__title {
+    font-size: 28px;
+  }
+
+  .phone_key_fetures {
+    position: absolute;
+    right: 50%;
+    top: 200px;
+    width: 400px;
+    height: auto;
+    transform: translateX(50%);
+    display: block;
+  }
+}
