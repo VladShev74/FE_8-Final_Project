@@ -48,6 +48,7 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: #7e7c7e;
+  text-transform: uppercase;
 }
 
 .header__menu_item {
@@ -270,7 +271,7 @@
 
   .header__burger_menu {
     position: static;
-    width: 500px;
+    width: 525px;
   }
 
   .header__burger_btn {
@@ -281,7 +282,7 @@
     display: flex;
     justify-content: space-between;
     position: static;
-    width: 500px;
+    width: 525px;
     background-color: #fff;
     text-align: center;
     padding-right: 30px;
