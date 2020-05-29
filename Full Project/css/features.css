@@ -108,7 +108,7 @@
   }
 
   .features__title {
-      font-size: 22px;
+      font-size: 28px;
   }
 
   .services_card {
@@ -140,10 +140,6 @@
   .features__container {
     margin-left: 49px;
     margin-right: 34px;
-  }
-
-  .features__title {
-    font-size: 28px;
   }
 
   .phone_key_fetures {
