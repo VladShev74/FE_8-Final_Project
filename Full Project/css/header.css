@@ -123,7 +123,8 @@
 .header__introduction_title {
   margin-top: 92px;
   font-size: 24px;
-  margin-left: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -132,7 +133,8 @@
 .header__subtitle {
   margin-top: 20px;
   font-size: 16px;
-  margin-left: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: left;
   color: #fff;
   padding-bottom: 30px;
