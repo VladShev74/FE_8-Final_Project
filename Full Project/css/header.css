@@ -229,12 +229,10 @@
 
   .header__introduction_title {
     font-size: 42px;
-    width: 490px;
   }
 
   .header__subtitle {
     font-size: 22px;
-    width: 540px;
   }
 
   .header__last_button {
@@ -330,13 +328,11 @@
 
     .header__introduction_title {
       font-size: 57px;
-      width: auto;
       margin-left: 30px;
     }
 
     .header__subtitle {
       font-size: 22px;
-      width: auto;
       margin-left: 30px;
     }
 
