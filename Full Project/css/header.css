@@ -182,7 +182,7 @@
   list-style: ">" outside;
   padding-left: 10px;
   border: 0px;
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
   margin-top: 15px;
   margin-left: 25px;
@@ -197,20 +197,21 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   margin-right: 10px;
+  font-size: 16px;
 }
 
 .header__list_1:hover + .header__list_2 {
   display: block;
   margin-top: 10px;
   margin-left: 50px;
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
 }
 
 @media screen and (min-width: 768px) {
   .header__header {
     background-color: #fff;
-    margin-bottom: 144px;
+    margin-bottom: 156px;
     min-width: 768px;
     display: flex;
     justify-content: space-between;
@@ -227,16 +228,25 @@
     font-weight: 800;
   }
 
+  .header__introduction {
+    padding-bottom: 168px;
+  }
+
   .header__introduction_title {
     font-size: 42px;
+    margin-top: 0;
+    padding: 0 2rem 0 2rem;
   }
 
   .header__subtitle {
     font-size: 22px;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 50px;
+    margin-top: 0;
   }
 
   .header__last_button {
-    margin: 50px 0 0 30px;
+    margin: 0 0 0 65px;
   }
 
   .header__menu_item_link {
@@ -293,13 +303,14 @@
     display: block;
     position: absolute;
     right: 0;
-    bottom: -120px;
-    width: 350px;
+    bottom: -110px;
+    width: 300px;
     height: auto;
+    margin-right: 55px;
   }
 
   .header__list_1 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .header__list_2 {
@@ -307,8 +318,9 @@
     width: 350px;
   }
 
-  .list_conteiner {
-    min-height: 283px;
+  .list__container {
+    margin-bottom: 80px;
+    padding: 0 2rem 0 2rem;
   }
 
   @media screen and (min-width: 1200px) {
@@ -327,7 +339,7 @@
     }
 
     .header__introduction_title {
-      font-size: 57px;
+      font-size: 47px;
       margin-left: 30px;
     }
 
@@ -359,24 +371,19 @@
       text-decoration: none;
     }
 
-    .list_conteiner {
+    .list__container {
       margin-bottom: 90px;
       margin-left: 30px;
-      width: 252px;
+      width: 320px;
     }
 
     .header__list_1 {
-      font-size: 26px;
-      padding-left: 20px;
-    }
-
-    .header__list_2 {
-      font-size: 26px;
+      padding-left: 15px;
     }
 
     .header__card_phone {
-      width: 400px;
-      bottom: -150px;
+      width: 382px;
+      bottom: -125px;
       right: 60px;
     }
   }
