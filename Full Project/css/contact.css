@@ -35,11 +35,6 @@
     margin-right: 12px;
 }
 
-.contact__container {
-    width: 425px;
-    margin: 0 auto;
-}
-
 .contact__form {
     margin-bottom: 60px;    
 }
@@ -154,6 +149,13 @@
 
 .contact__footer--phone {
     margin-bottom: 14px;
+}
+
+@media screen and (min-width: 425px) {
+    .contact__container {
+        width: 425px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 768px) {

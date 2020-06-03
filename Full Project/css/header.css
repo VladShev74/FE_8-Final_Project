@@ -63,17 +63,23 @@
   color: #333333;
 }
 
+.header__burger_btn:hover + .header__menu_list {
+  right: 0px;
+  display: block;
+}
+
 .header__menu_list {
   position: absolute;
   top: 99%;
-  right: 0;
-  display: none;
+  right: -768px; 
+  /* display: none; */
   min-width: 321px;
-  width: 100%;
+  width: 100%; 
   background-color: #fff;
   text-align: center;
   border-top: 1px solid;
   color: #787878;
+  transition: 0.7s linear;
 }
 
 .header__welcome {
