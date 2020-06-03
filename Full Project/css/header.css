@@ -69,6 +69,11 @@
   display: block;
 }
 
+.header__burger_btn:active + .header__menu_list {
+  right: 0px;
+  display: block;
+}
+
 .header__menu_list {
   position: absolute;
   top: 99%;
