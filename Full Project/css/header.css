@@ -264,6 +264,10 @@
     margin: 0 0 0 65px;
   }
 
+  .header__menu_list {
+    transition: 0s linear;
+  }
+
   .header__menu_item_link {
     height: 30px;
     font-size: 16px;
